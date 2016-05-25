@@ -1,7 +1,9 @@
-.topTab {
-  width: 100%;
-  height: 45px;
-  background-color: #2b2826;
-  color: #e8e6e3;
-  font-family: monospace, monospace;
+button {
+    height: 50px;
+    width: 120px;
+    background-color: #e8e6e3;
+    text-align: center;
+    color: #2c2921;
+    border-radius: 5px;
+    font-family:  monospace, monospace;
 }
