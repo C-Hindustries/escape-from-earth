@@ -1,1 +1,6 @@
-
+.topTab {
+  width: 100%;
+  height: 45px;
+  color: #2b2826;
+  font-family: monospace, monospace;
+}
