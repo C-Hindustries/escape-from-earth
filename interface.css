@@ -1,11 +1,11 @@
 body{
     text-align: center;
     font-family: monospace, monospace;
-    font-size: 20px;
+    font-size: 45px;
 }
 button {
     height: 80px;
-    width: 120px;
+    width: 400px;
     background-color: #e8e6e3;
     text-align: center;
     color: #2c2921;
