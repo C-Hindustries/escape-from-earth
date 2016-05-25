@@ -12,3 +12,6 @@ button {
     border-radius: 5px;
     font-family:  monospace, monospace;
 }
+table {
+    text-align: center;
+}
