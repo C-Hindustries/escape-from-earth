@@ -2,6 +2,7 @@ body{
     text-align: center;
     font-family: monospace, monospace;
     font-size: 45px;
+    margin: 10px;
 }
 button {
     height: 80px;
@@ -11,6 +12,7 @@ button {
     color: #2c2921;
     border-radius: 5px;
     font-family:  monospace, monospace;
+    font-size: 25px;
 }
 .buttonLeft{
      position: relative;
@@ -42,4 +44,8 @@ button {
 .white{
     color: #dddddd;
 }
-
+.completionPara {
+     position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
