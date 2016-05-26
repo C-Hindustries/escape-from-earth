@@ -12,17 +12,17 @@ button {
     border-radius: 5px;
     font-family:  monospace, monospace;
 }
-table {
-    text-align: center;
-    align: center;
-}
 .buttonLeft{
      position: relative;
      left: 40%;
+     text-decoration: none;
+     display: inline-block;
 }
 .buttonRight{
      position: relative;
      right: 40%;
+     text-decoration: none;
+     display: inline-block;
 }
 .logoDiv{
     color: #dddddd;
@@ -42,10 +42,4 @@ table {
 .white{
     color: #dddddd;
 }
-.buttonCenter{
-    position: absolute;
-    left: 0;
-    right: 0;
 
-    margin: auto;
-}
