@@ -16,10 +16,6 @@ table {
     text-align: center;
     align: center;
 }
-.logoDiv {
-    background-color: none;
-    
-}
 .buttonLeft{
      position: relative;
      left: 40%;
@@ -32,7 +28,7 @@ table {
     color: #dddddd;
     position: relative;
     font-family: monospace, monospace;
-    font-size: 350%;
+    font-size: 45px;
     border-style: outset outset outset outset;
     border-radius: 7px;
     text-align: center;
