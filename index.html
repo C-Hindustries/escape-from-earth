@@ -7,23 +7,29 @@
   <link rel="stylesheet" type="text/css" href="interface.css" />
 </head>
 <body>
-<body id="background" <img src="http://orig09.deviantart.net/17b2/f/2010/277/e/8/earth_destruction_by_kallestar23-d301wgd.jpg" />
+<body background= "https://i.ytimg.com/vi/fUY3Zn8JctI/maxresdefault.jpg">
   <p>
     <img src= "http://www.accessibletourism.org/resources/toolip/img/2015/11/27/escape-logo-hor-cmyb.png" />
   </p>
  <p>
-   <button class: "buildPoints">spend a minuite building your rocket!</button>
+   <button id="buttonWork" class= "buttonCenter" onclick="getWork()">spend a minuite building your rocket!</button>
  </p>
  <p>
    <table align= "right">
      <tr>
        <td>
-         <button style: "align: left">learn more about rocket building rockets for <span id="learnNum">0</span></button>
+         <button id="buttonLearn" class="buttonLeft" onclick="getLearn()">learn more about rocket building rockets for: <span id="learnNum">0</span></button>
          </td>
        <td>
-         <button style: "align: right">employ helpers for <span id="emnployNum">0</span></button>
+         <button id="buttonEmploy" class="buttonRight" onclick="getEmploy()">employ helpers for: <span id="emnployNum">0</span></button>
       </td>
    </tr>
+ </p>
+ <p>
+   <button id= "buttonEarn" class="buttonCenter" onclick="getEarn()">earn money!</button>
+ </p>
+ <p>
+   <div><span id="moneyNum" class= "buttonCenter">0</span></div>
  </p>
  
   <script type="text/javascript" src="main.js"></script>
