@@ -15,14 +15,14 @@ button {
     font-size: 25px;
 }
 .buttonLeft{
-     position: relative;
-     left: 40%;
+      position: relative;
+     right: 40%;
      text-decoration: none;
      display: inline-block;
 }
 .buttonRight{
      position: relative;
-     right: 40%;
+     left: 40%;
      text-decoration: none;
      display: inline-block;
 }
