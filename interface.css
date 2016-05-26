@@ -39,3 +39,15 @@ table {
     width: 420px;
     margin: auto;
 }
+.white{
+    color: #dddddd;
+}
+.buttonCenter{
+     position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
