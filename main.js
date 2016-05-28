@@ -86,4 +86,4 @@ function getEmploy() {
     if (completion < 500) {
    employ = setInterval(getEmploy(),  completionPlusUpgrade);
 }
-}
+
