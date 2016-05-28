@@ -12,7 +12,7 @@ function getEarn() {
 }
 
 function getWork() {
-  completion = completion += completionPlus;
+  completion += completionPlus;
   document.getElementById("completionNum").innerHTML = completion;
   
   if (completion > 5 <5.3) {
@@ -37,9 +37,9 @@ function getWork() {
   
   if (completion > 60 < 60.25){
     window.alert("Oh no! your workshop has been hit by an earthquake and much of your work has been desroyed!");
-    completion = completion *= 0.4;
+    completion *= 0.4;
     document.getElementById("completionNum").innerHTML = completion;
-    completionPlus = completionPlus *= 0.4;
+    completionPlus *= 0.4;
      document.getElementById("workExtraNum").innerHTML = completionPlus;
   }
   
@@ -62,11 +62,11 @@ function getWork() {
 
 function getLearn() {
   if (money > learnNumCost) {
-    money = money -= learnNumCost;
+    money -= learnNumCost;
     document.getElementById("moneyNum").innerHTML = money;
-    learnNumCost = learnNumCost += learnNumCost *= 2;
+    learnNumCost += learnNumCost *= 2;
     document.getElementById("learnNum").innerHTML = learnNumCost;
-    completionPlus = completionPlus += 
+    completionPlus = completionPlus += 0.01;
     
     if (completionPlus < 0.2) {
     completionPlus = completionPlus += completionPlus /= 0.3;
