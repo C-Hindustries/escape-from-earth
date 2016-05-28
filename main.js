@@ -9,7 +9,6 @@ var employ;
 function getEarn() {
   money += 1;
   document.getElementById("moneyNum").innerHTML = money;
-  document.getElementById("moneyNum").innerHTML = employCost;
 }
 
 function getWork() {
